@@ -7,14 +7,14 @@ class Arcanist < Formula
   homepage "https://secure.phabricator.com/book/phabricator/article/arcanist/"
 
   stable do
-    url "https://github.com/wikimedia/arcanist/archive/release/2019-05-08/1.tar.gz"
-    sha256 "dfa7208ca7438a8f98a0162f3ec50a90a9b9b24eff5f721b9c1850b27d923c6b"
-    version "201905081"
+    url "https://github.com/wikimedia/arcanist/archive/release/2019-08-22/1.tar.gz"
+    sha256 "6a5f726870224da8cf18d904bb96a1a6d8ee25d31c27ff8a0d2093884c243887"
+    version "201908221"
 
     resource "libphutil" do
-      url "https://github.com/wikimedia/phabricator-libphutil/archive/release/2019-05-08/1.tar.gz"
-      sha256 "3aba80e69efd756e7c53966c9ff017c823c707923613a82e0ae91fbc78307dc4"
-      version "201905081"
+      url "https://github.com/wikimedia/phabricator-libphutil/archive/release/2020-02-13/1.tar.gz"
+      sha256 "8a08c155f17a6a34c88ca23185e2b1506aa53a01a099e35fc6e9487c02340e4c"
+      version "202002131"
     end
   end
 
