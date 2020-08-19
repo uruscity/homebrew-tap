@@ -1,7 +1,5 @@
 # Originally taken from http://github.com/homebrew/homebrew-php and carefully updated
 #
-require File.expand_path("../../Requirements/php-meta-requirement", __FILE__)
-
 class Arcanist < Formula
   desc "Phabricator Arcanist Tool"
   homepage "https://secure.phabricator.com/book/phabricator/article/arcanist/"
@@ -26,7 +24,7 @@ class Arcanist < Formula
     end
   end
 
-  depends_on PhpMetaRequirement
+  depends_on 'php'
 
   def install
     libexec.install Dir["*"]
