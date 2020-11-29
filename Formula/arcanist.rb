@@ -14,7 +14,7 @@ class Arcanist < Formula
     url "https://github.com/phacility/arcanist.git"
   end
 
-  depends_on 'php'
+  depends_on 'php@7.4'
 
   def install
     libexec.install Dir["*"]
